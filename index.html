@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <form name="shift" class="shift">
+      <label for="cities">Выберите город</label>
+      <select id="citiesId" name="cities"> </select>
+      <p>
+        <label for="shops">Выберите цех</label>
+        <select id="shopsId" name="shops"> </select>
+      </p>
+
+      <p>
+        <label for="employees">Выберите сотрудника</label>
+        <select id="employeesId" name="employees"> </select>
+      </p>
+
+      <p>
+        <label for="shops">Выберите бригаду</label>
+        <input
+          type="radio"
+          value="1"
+          checked
+          name="brigade1"
+          id="brigade1Id"
+        />1
+        <input
+          type="radio"
+          value="2"
+          unchecked
+          name="brigade2"
+          id="brigade2Id"
+        />2
+      </p>
+
+      <p>
+        <input id="shiftEnter" type="submit" value="Отправить" class="enter" />
+      </p>
+    </form>
+  </body>
+</html>
